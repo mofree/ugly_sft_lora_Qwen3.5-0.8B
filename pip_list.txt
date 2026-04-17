@@ -1,0 +1,51 @@
+# ===== 深度学习核心 =====
+torch==2.11.0+cu130
+torchvision==0.26.0+cu130
+
+# ===== Transformers & 训练框架 =====
+transformers==5.5.4
+peft==0.19.1
+trl==1.2.0
+accelerate==1.13.0
+tokenizers==0.22.2
+safetensors==0.7.0
+
+# ===== 数据处理 =====
+datasets==4.8.4
+pandas==2.3.3
+pyarrow==23.0.1
+openpyxl==3.1.5
+dill==0.4.1
+multiprocess==0.70.19
+
+# ===== 模型仓库 =====
+huggingface_hub==1.10.2
+hf-xet==1.4.3
+modelscope==1.35.4
+
+# ===== Web / UI =====
+gradio==6.12.0
+gradio_client==2.4.1
+fastapi==0.136.0
+uvicorn==0.44.0
+starlette==1.0.0
+
+# ===== 序列化与格式 =====
+orjson==3.11.8
+PyYAML==6.0.3
+Jinja2==3.1.6
+tomlkit==0.14.0
+
+# ===== 基础依赖 =====
+numpy==2.2.6
+regex==2026.4.4
+filelock==3.28.0
+packaging==26.0
+tqdm==4.67.3
+requests==2.33.1
+pillow==12.1.1
+certifi==2026.2.25
+charset-normalizer==3.4.7
+idna==3.11
+urllib3==2.6.3
+typing_extensions==4.15.0
